@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="countown.css">
+    <link rel="icon" type="svg" href="hourglass.svg">
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <div id="myContainer">
+        <h1>Countdown Timer</h1>
+
+        <label for="seconds" class="userInput">Enter Seconds: </label>
+        <input type="number" class="userInput" id="seconds" min="1">
+        <br><br>
+
+        <label for="message" class="userInput">Enter Message: </label>
+        <input type="text" class="userInput" id="message">
+        <br><br>
+
+        <button id="startBtn">Start</button>
+        <br><br>
+
+        <div id="dispCount"></div>
+    </div>
+    <script src="countdown.js"></script>
+</body>
+</html>

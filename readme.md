@@ -1,1 +1,1 @@
-This is a simple countdouwn timer program. I tried practicing While Loops in Javascript in this program.
+This is a simple countdown timer program. I tried practicing While Loops in Javascript in this program.
